@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Exporter</string>
+	<key>description</key>
+	<string>Export Quartz Composer output to movie, youtube or vimeo
+
+(c) 2010 QuartzComposer.com, Mirek Rusin &lt;mirek@me.com&gt;</string>
+	<key>copyright</key>
+	<string>Mirek Rusin &lt;mirek [at] me [dot] com&gt;</string>
+	<key>attributes</key>
+	<dict>
+		<key>inputRecord</key>
+		<dict>
+			<key>QCPortAttributeNameKey</key>
+			<string>Record</string>
+			<key>QCPortAttributeDescriptionKey</key>
+			<string>Recording starts when the signal is changing from false to true, finishing when changes from true to false. You can also use recording panel, just go to settings and change control mode to HUD panel.</string>
+			<key>QCPortAttributeDefaultKey</key>
+			<false/>
+		</dict>
+		<key>inputImage</key>
+		<dict>
+			<key>QCPortAttributeNameKey</key>
+			<string>Image</string>
+			<key>QCPortAttributeDescriptionKey</key>
+			<string>Input image, most of the time you want to connect it with Render in Image output</string>
+		</dict>
+		<key>inputTimeScale</key>
+		<dict>
+			<key>QCPortAttributeNameKey</key>
+			<string>Time Scale</string>
+			<key>QCPortAttributeDescriptionKey</key>
+			<string>Use it with External Timeline for Render in Image and Patch Time multiplied by time scale factor which you can feed here, ie. use 0.1 to make 10x times accurate movie</string>
+			<key>QCPortAttributeDefaultKey</key>
+			<real>1</real>
+			<key>QCPortAttributeMinimumValueKey</key>
+			<real>0.01</real>
+			<key>QCPortAttributeMaximumValueKey</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

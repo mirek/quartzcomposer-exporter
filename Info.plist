@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.quartzcomposer.${PRODUCT_NAME:identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Export to movie Quartz Composer plugin version 1.3, © 2010 QuartzComposer.com Mirek Rusin &lt;mirek@me.com&gt;</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.0.${TIMESTAMP}</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.0.${TIMESTAMP}</string>
+	<key>QCPlugInClasses</key>
+	<array>
+		<string>QCXExporter</string>
+	</array>
+</dict>
+</plist>
